@@ -32,7 +32,7 @@ class LoginController extends Controller
         if ($select->email==$request->email AND $select->password==$request->password) {
             return "OK";
         }else{
-            return "Not OK";
+            return "Password Not OK";
         }
        
     }
